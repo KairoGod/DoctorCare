@@ -41,7 +41,7 @@ function activateMenuAtCurrentSection(section) {
 function showNavOnScroll() {
   if (scrollY > 0) {
     document.getElementById("navigation").classList.add('scroll')
-  } else {
+  } else { 
     document.getElementById("navigation").classList.remove('scroll')
   }
 }
